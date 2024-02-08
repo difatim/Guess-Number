@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+}
+body {
+    background-color: rgba(8, 8, 8, 0.817);
+}
+
+.again {
+    height:70px;
+    width:200px;
+    font-size: 40px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.numbers {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.top-elements {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.interrogation {
+    font-size: 100px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.middle-elements {
+    color: aliceblue;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-side {
+    width:40%;
+    height:300px;
+    margin-top: 5px;
+    margin-left: 220px;
+}
+
+.input-box {
+    outline:none;
+    margin-bottom: 35px;
+    height:100px;
+    width:250px;
+    background-color: transparent;
+    font-size: 70px;
+    color:white;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+.check {
+    height:70px;
+    width:200px;
+    font-size: 40px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.right-side {
+   width: 40%;
+   font-size: 40px;
+   color:aliceblue;
+   word-spacing: 5px;
+}
+
+.devider {
+   display: flex;
+   justify-content: space-between;
+}
+
+.guessing {
+    margin-bottom: 70px;
+}
+
